@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>🎂 Happy B'day 🎉</title>
+  <link rel="style" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<script src="libraries/p5.js"></script>
+	<script src="libraries/p5.dom.js"></script>
+	<script src="libraries/p5.sound.js"></script>
+	<script src="Ballon.js"></script>
+	<script src="sketch.js"></script>
+
+<script type="text/javascript">
+flag=1
+function play()
+{
+  alert("Haii broo");
+  alert("HAPPY B'DAY yeuu😉")
+  alert("Gimana hari ini");
+  alert("Senang ji tohh?");
+  alert("ohhh jelass... pastii dong hehe");
+  alert("btw punyaka tebak-tebakan.. hahaha");
+  alert("mobil, mobil apa... hahahaha");
+  alert("bukan bukan");
+  alert("Hai haii")
+}
+function f()
+{
+    if(flag==1)
+        {
+            Bn.style.top=400
+            Bn.style.left=300
+            flag=2
+        }
+    else if(flag==2)
+        {
+            Bn.style.top=400
+            Bn.style.left=50
+            flag=3
+        }
+    else if(flag==3)
+        {
+            Bn.style.top=370
+            Bn.style.left=166
+            flag=1
+        }
+}
+</script>
+  <!-- <script>
+  alert("ciee 24 tahun😜");
+  alert("HAPPY B'DAY yeuu😉")
+  alert("Gimana hari ini");
+  alert("Senang ji tohh?");
+  alert("ohhh jelass... pastii dong hehe");
+  alert("btw punyaka tebak-tebakan.. hahaha");
+  alert("mobil, mobil apa... hahahaha");
+  alert("bukan bukan");
+  alert("Hai haii")
+  </script> -->
+<script src=""></script>
+
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+		}
+
+		canvas {
+			margin: auto;
+		}
+	</style>
+  
+</head>
+
+<body>
+    <div id="By" style="position:absolute; left:735px; top:340px; width:210px; height:200px; opacity: 300px;">
+      <!-- <input type="button" class="fa fa-play-circle" value="" onClick="f1()" /> -->
+      <!-- <i class="fa fa-play-circle" style="font-size:100px"></i> -->
+     <i class="fa fa-play" style="font-size:80px; color: pink; opacity: 0.7; cursor: pointer;" onclick="play()"></i>
+    <script>
+      translate( ByX + (-mouseX + width / 2) / 30, ByY + (-mouseY + height / 2) / 30);
+      imageMode(CENTER);
+    </script>
+    </button>
+    </div>
+    
+</body>
+</html>
