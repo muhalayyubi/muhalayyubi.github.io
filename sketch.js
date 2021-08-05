@@ -16,8 +16,8 @@ var name = "Endah Rahayu";
 var sfxPop;
 
 function preload() {
-	foto = loadImage("assets/img/een-01.png");
-	bgStatic = loadImage("assets/img/bg-01.png");
+	foto = loadImage("assets/img/een.png");
+	bgStatic = loadImage("assets/img/bg.png");
 	font = loadFont("assets/font/FredokaOne.ttf");
 	sfxPop = loadSound("assets/sfx/pop.mp3");
 }
