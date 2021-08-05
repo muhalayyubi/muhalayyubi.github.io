@@ -1,12 +1,18 @@
+/*
+ * b'day card
+ * created: 21 December 2018
+ * d-day: 24 December 🎉
+ * 
+ * https://muhalayyubi.github.io/
+ */
 
 var mobils = [];
 var balloons = [];
-var total = 12;
+var total = 8;
 var font;
 var foto, bgStatic;
 var txt = "HAPPY B'DAY";
 var name = "Endah Rahayu";
-var btn = "Buka dong kak";
 var sfxPop;
 
 function preload() {
@@ -46,16 +52,16 @@ function draw() {
 	
 	// name
 	push();
-	fill(255);
+	fill(250);
 	stroke(45, 28, 82);
-	strokeWeight(7);
+	strokeWeight(6);
 	textFont(font);
 	textSize(30);
 	textAlign(CENTER);
 	// name
-	text(name, imgX + (mouseX - width / 2) / 30, imgY + 200 + (mouseY - height / 2) / 30);
+	text(name, imgX + (mouseX - width / 2) / 30, imgY + 180 + (mouseY - height / 2) / 30);
 	// teks hbd
-	text(txt, imgX + (mouseX - width / 2) / 30, imgY - 150 + (mouseY - height / 2) / 30);
+	text(txt, imgX + (mouseX - width / 2) / 30, imgY - 120 + (mouseY - height / 2) / 30);
 	pop();
 
 	// btn
